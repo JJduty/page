@@ -1,0 +1,63 @@
+<scroll-view class="content-info" scroll-y=" ">  
+<swiper class="content-info-slide" indicator-active-color="#FFF" autoplay=" " interval="1700" indicator-dots=" ">
+<swiper-item bindtap="changegd" id="1" >
+    <image src="../../images/111.jpg"></image>
+    <include src="play.wxml"></include>
+    <view></view>
+</swiper-item>
+<swiper-item bindtap="changegd" id="1">
+    <image src="../../images/ccc.jpg"></image>
+</swiper-item>
+<swiper-item bindtap="changegd" id="1">
+    <image src="../../images/111.jpg"></image>
+</swiper-item>
+</swiper>
+<view class="content-info-portal">
+<view >
+    <image src="../../images/aaa.jpg"></image>
+    <text>电台FM</text>
+</view>
+<view bindtap="navigateTo">
+    <image src="../../images/aaa.jpg" ></image>
+    <text>音乐推荐</text>
+</view>
+<view bindtap="song" id="2">
+    <image src="../../images/aaa.jpg"></image>
+    <text>我的歌单</text>
+</view>                                 
+</view>
+<!-- info下部列表 -->
+<view class="content-info-list">
+<view class="list-title">推荐歌曲</view>
+<view class="list-inner">
+ <view class="list-item">
+     <image src="../../images/333.jpg"></image>
+     <view>偷</view>
+ </view>
+ <view class="list-item">
+     <image src="../../images/666.jpg"></image>
+     <view>爱到1440</view>
+ </view>
+ <view class="list-item">
+     <image src="../../images/999.jpg"></image>
+     <view>楼外楼</view>
+ </view>
+ <view class="list-item">
+     <image src="../../images/777.jpg"></image>
+     <view>回望</view>
+ </view>
+ <view class="list-item">
+     <image src="../../images/888.jpg"></image>
+     <view>白日猫</view>
+ </view>
+ <view class="list-item">
+     <image src="../../images/555.jpg"></image>
+     <view>一起跳舞吧</view>
+ </view>
+</view>
+
+</view>
+
+
+
+</scroll-view>

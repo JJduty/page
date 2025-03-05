@@ -1,0 +1,44 @@
+<!--pages/index1/index1.wxml-->
+<scroll-view  scroll-y=" " >
+<view class="suggest">歌单推荐</view>
+<view class="tap">
+  <image src="../../images/111.jpg" ></image>
+</view>
+<view class="content">
+ <image src="../../images/333.jpg" class="content-cover"></image>
+ <view class="content-info">
+ <view class="content-info-title">悬溺</view>
+ <view class="content-info-singer">葛东琪</view>
+</view>
+</view>
+<view class="content">
+ <image src="../../images/666.jpg" class="content-cover"></image>
+ <view class="content-info">
+ <view class="content-info-title">爱到1440</view>
+ <view class="content-info-singer">时代少年团</view>
+</view>
+</view>
+<view class="content">
+ <image src="../../images/bbb.jpg" class="content-cover"></image>
+ <view class="content-info">
+ <view class="content-info-title">热恋情节</view>
+ <view class="content-info-singer">吴子健</view>
+</view>
+</view>
+<view class="content">
+ <image src="../../images/777.jpg" class="content-cover"></image>
+ <view class="content-info">
+ <view class="content-info-title">热恋</view>
+ <view class="content-info-singer">万妮达</view>
+</view>
+</view>
+<view class="content">
+ <image src="../../images/aaa.jpg" class="content-cover"></image>
+ <view class="content-info">
+ <view class="content-info-title">18dB</view>
+ <view class="content-info-singer">吴子健/小蓝背心</view>
+</view>
+</view>
+ </scroll-view>
+
+

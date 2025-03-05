@@ -1,0 +1,173 @@
+page{
+  display:flex;
+  flex-direction: column;
+  
+  height:100%;
+  background-color:white;
+  color:black;
+}
+.tab{
+ display:flex;
+}
+.tab-item{
+  
+  flex:1;
+  height:75rpx;
+  text-align:center;
+  line-height: 75rpx;
+  font-size: 30rpx;
+  border-bottom: 6rpx solid #eee;
+}
+.player{
+  height:120rpx;
+  background-color:white;
+}
+.concent{
+  flex:1;
+}
+.concent swiper{
+  height:100%;
+}
+.active{
+  color:#c2525b;
+  border-bottom:6rpx solid #c2525b;
+}
+.content-info{
+  height:100%
+}
+.content-info .content-info-slide{
+  /* border:1px solid red; */
+  height:310rpx;
+}
+.content-info .content-info-slide image{
+  width: 100%;
+  height: 100%;
+}
+.content-info-portal image{
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 50%;
+}
+.content-info-portal{
+  display:flex;
+  margin-top: 30rpx;
+  
+}
+.content-info-portal view{
+  flex:1;
+  text-align: center;
+}
+.content-info-portal text{
+  display:block;
+  font-size: 28rpx;
+}
+/* info下部 */
+.content-info-list image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 5rpx;
+}
+.list-inner{
+  display:flex;
+  flex-wrap: wrap;
+  margin:0 20rpx;
+  
+}
+.content-info-list .list-item{
+ flex:1;
+ text-align: center;
+ font-size: 26rpx;
+ margin-bottom: 15rpx;
+ 
+}
+.content-info-list .list-item view{
+  text-align: left;
+  margin: 0 20rpx;
+}
+.list-title{
+  font-size: 30rpx;
+  margin:20rpx 0 20rpx 40rpx;
+}
+.player{
+  display:flex;
+  align-items:center;
+  padding:0 25rpx;
+}
+.player image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.player-cover{
+  margin-right: 28rpx;
+  border-radius: 5rpx;
+}
+.player-info{
+  flex:1;
+  font-size: 28rpx;
+}
+.player-info-singer{
+  color:#888;
+}
+.content-play{
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.content-play-info{
+  text-align: center;
+}
+.content-play-info view{
+  margin-top: 15rpx;
+  color:#888;
+  font-size: 30rpx;
+}
+.content-play-info text{
+  font-size: 40rpx;
+}
+.content-play-cover image{
+   width: 400rpx;
+   height: 400rpx;
+   border-radius: 50%;
+   animation:ball 10s linear infinite;
+}
+@keyframes ball{
+  from{
+    transform:rotate(0deg);
+  }to{
+    transform:rotate(360deg);
+  }
+}
+.content-play-progress{
+  display:flex;
+  width: 96%;
+  align-items: center;
+}
+.content-play-progress slider{
+  flex:1;
+}
+.playlist-item{
+  display:flex;
+  border-bottom:1rpx solid #888;
+  height: 112rpx; 
+  padding:8rpx 15rpx;
+  align-items:center;
+}
+.playlist-item image{
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 20rpx;
+  border-radius: 5rpx;
+}
+.playlist-info{
+  flex:1;
+  font-size: 30rpx;
+}
+.playlist-info-singer{
+  color:#888
+}
+.playlist-controls{
+  color:#c2525b;
+  font-size: 30rpx;
+}

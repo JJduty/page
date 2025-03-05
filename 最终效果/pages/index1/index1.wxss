@@ -1,0 +1,35 @@
+scroll-view{
+  height: 100%;
+}
+.suggest{
+  text-align: center;
+  font-size: 45rpx;
+  font-weight: bold;
+}
+
+.tap image{
+  height: 310rpx;
+}
+.content{
+  display:flex;
+  border-bottom:1rpx solid #888;
+  /* height: 112rpx;  */
+  padding:8rpx 15rpx;
+  align-items:center;
+}
+.content-cover{
+  width: 150rpx;
+  height: 150rpx;
+  margin-right: 20rpx;
+  border-radius: 10rpx;
+}
+.content-info{
+  flex:1;
+  font-size: 35rpx;
+}
+.content-info-singer{
+  color:#888;
+  font-size:28rpx;
+  padding-top: 5rpx;
+  
+}
